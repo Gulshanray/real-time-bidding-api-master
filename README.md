@@ -8,7 +8,7 @@ This project is a comprehensive RESTful API for a real-time bidding platform bui
 
 1. Install Node.js (https://nodejs.org/)
 
-2. Clone the repository: `git clone https://github.com/rakibsayed/real-time-bidding-api.git`
+2. Clone the repository: `git clone  https://github.com/Gulshanray/real-time-bidding-api-master.git
 
 3. Install dependencies:
 
@@ -139,7 +139,7 @@ npm test
       "username": "example_user",
       "email": "user@example.com",
       "role": "user",
-      "created_at": "2024-06-06T12:00:00Z"
+      "created_at": "2025-01-13T12:00:00Z"
     }
     ```
 - **Error:**
@@ -177,8 +177,8 @@ npm test
         "starting_price": 100.0,
         "current_price": 150.0,
         "image_url": "http://example.com/image.jpg",
-        "end_time": "2024-06-06T12:00:00Z",
-        "created_at": "2024-06-01T12:00:00Z",
+        "end_time": "2025-01-13T12:00:00Z",
+        "created_at": "2025-01-13T12:00:00Z",
         "owner_id": 1
       }
       //...
@@ -213,8 +213,8 @@ npm test
       "starting_price": 100.0,
       "current_price": 150.0,
       "image_url": "http://example.com/image.jpg",
-      "end_time": "2024-06-06T12:00:00Z",
-      "created_at": "2024-06-01T12:00:00Z",
+      "end_time": "2025-01-13T12:00:00Z",
+      "created_at": "2025-01-13T12:00:00Z",
       "owner_id": 1
     }
     ```
@@ -242,7 +242,7 @@ npm test
   "description": "New Item Description",
   "starting_price": 100.0,
   "image_url": "http://example.com/new-image.jpg",
-  "end_time": "2024-06-10T12:00:00Z"
+  "end_time": "2025-01-13T12:00:00Z"
 }
 ```
 
@@ -260,8 +260,8 @@ npm test
       "starting_price": 100.0,
       "current_price": 100.0,
       "image_url": "http://example.com/new-image.jpg",
-      "end_time": "2024-06-10T12:00:00Z",
-      "created_at": "2024-06-02T12:00:00Z",
+      "end_time": "2025-01-13T12:00:00Z",
+      "created_at": "2025-01-13T12:00:00Z",
       "owner_id": 1
     }
     ```
@@ -289,7 +289,7 @@ npm test
   "description": "New Item Description",
   "starting_price": 100.0,
   "image_url": "http://example.com/new-image.jpg",
-  "end_time": "2024-06-10T12:00:00Z"
+  "end_time": "2025-01-13T12:00:00Z"
 }
 ```
 
@@ -307,8 +307,8 @@ npm test
       "starting_price": 100.0,
       "current_price": 100.0,
       "image_url": "http://example.com/new-image.jpg",
-      "end_time": "2024-06-10T12:00:00Z",
-      "created_at": "2024-06-02T12:00:00Z",
+      "end_time": "2025-01-11T12:00:00Z",
+      "created_at": "2025-01-02T12:00:00Z",
       "owner_id": 1
     }
     ```
@@ -355,7 +355,7 @@ npm test
   "description": "New Item Description",
   "starting_price": 100.0,
   "image_url": "http://example.com/new-image.jpg",
-  "end_time": "2024-06-10T12:00:00Z"
+  "end_time": "2025-01-10T12:00:00Z"
 }
 ```
 
@@ -418,7 +418,7 @@ npm test
         "item_id": 1,
         "bidder_id": 1,
         "bid_amount": 150.0,
-        "created_at": "2024-06-02T12:00:00Z"
+        "created_at": "2025-01-13T12:00:00Z"
       }
       //...
     ]
@@ -457,7 +457,7 @@ npm test
       "item_id": 1,
       "user_id": 1,
       "bid_amount": 200.0,
-      "created_at": "2024-06-02T12:30:00Z"
+      "created_at": "2024-01-13T12:30:00Z"
     }
     ```
 
@@ -512,7 +512,7 @@ npm test
         "user_id": 1,
         "message": "You have been outbid on 'Item Name'.",
         "is_read": false,
-        "created_at": "2024-06-02T12:45:00Z"
+        "created_at": "2025-01-13T12:45:00Z"
       }
       //...
     ]
